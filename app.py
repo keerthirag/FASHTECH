@@ -52,3 +52,15 @@ if st.button("Generate Report"):
 st.markdown("<p class='big-font highlight'>📊 Get Real-Time AI Trend Insights</p>", unsafe_allow_html=True)
 st.write("Integrate AI-powered analytics into your fashion business to reduce waste, optimize inventory, and predict future consumer behavior.")
 st.markdown("[🔮 Learn More](https://fashtech.godaddysites.com)")
+
+st.markdown("""
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16866904672"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16866904672');
+</script>
+""", unsafe_allow_html=True)
